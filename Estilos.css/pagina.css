@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+     
+    .siteHeader{
+        margin-left: 15%;
+        
+    }
+    .siteHeader>img{
+        
+        display: flex;
+        margin-bottom: 3%;
+    }
+    .barra{
+        background:#E3138D;
+        padding-left:  14%;
+        font-size: 30px;
+        display: flex;
+        clear: both;
+    
+    
+        
+    
+    }
+    
+    a{
+        text-decoration:  none;
+        color: #FFFFFF;
+        padding-left:20px;
+        
+        }
+    
+        h2{color: #169DDC;
+            font-size:25px;
+            margin-top:22px; 
+            margin-bottom: 22px;
+    
+        }
+    
+        .contenedorclearfix{
+    margin-top: 3%;
+    margin-left: 16%;
+    display: flex;
+    width:  48%;
+    
+    
+        }
+    
+    img{
+        width: 50%;
+        height: 40%;
+        float: left;
+        margin-right: 2%;
+    }
+    
+    p{
+        padding: 5px;
+        margin-right: 10px;
+    }
+    
+    article>.boton{
+        font-size: 20px;
+        background:#169DDC;
+        padding: 2px;
+        
+    
+    }
+    
+    section{
+        font-size: 20px;
+        color: #169DDC;
+    }
+      
+      .sidebar{
+          float: right;
+          widows: 300px;
+          height: 300px;
+      }
+    
+     .sidebar,ul,li>a{
+         color: #169DDC;
+         font-size: 20px;
+     }
+    
+     .sidebar,ul>li{
+         list-style: none;
+         margin-top: 1%;
+     }
+    
+     .footerSitio{
+         background: #ED0C9B;
+         
+         margin-top: 2%;
+     }
+     .cosotros>h2{
+         color:#FFFFFF;
+         display: inline-flex;
+         margin-left: 16%;
+         margin-bottom: 1%;
+         float: left;
+    
+     }
+    
+     .cosotros>p{
+         color:#FFFFFF;
+         text-align: left;
+         margin-left: 16%;
+        font-size: 10px;
+    display: inline-flex;
+    float: left;
+    margin-right: 60%;
+    
+     }
+    
+    .manu>nav{
+        text-align: center;
+        margin-left: 20%;
+            
+    }
+    
+    .manu{
+        padding: 0px;
+    
+    }
+    .manu>h2{
+    color: #FFFFFF;
+    margin-left: 50%;
+    padding-top: 20px;
+    
+    
+    }
+    
+    .footerSitio>p{
+         text-align: center;
+         background: #E511D9;
+         margin-top: 2%;
+     }
+    
