@@ -1,0 +1,370 @@
+/*1. separamos un poco el header de la parte superior*/
+.sitebar{
+    padding: 20px o;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/**2. Navegacion**/
+.barra{
+    margin-top: 40px;
+    background-color: #DB008D
+}
+/*3. Ahora vamos con la navegacion pal*/
+.navegacionPrincipal a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+/*4 media query*/
+@media (min-witdh:768px){
+    .navegacionPrincipal a{
+display: inline-block;
+    }
+}
+/**6. Contenedores Principal**/
+.contenedorPrincipal,
+.sidebar{
+    padding: 20px;
+    /*width: 400px;
+    float: right;
+    background: green;*/
+}
+@media (min-witdh:768px){
+    .contenedorPrincipal{
+        width: 70%;
+        float: left;
+        padding: 0 60px 0 0;
+    }
+    .sidebar{
+        width: 30%;
+        float: right;
+        padding: 0;
+        margin-top:40px;
+
+    }
+}
+/**7.Entadas de blogr**/
+h2{
+    color: #00B8E4;
+    margin-bottom: 20px;
+}
+/*8. Estilos imagenes*/
+.entrada img{
+    display: block;
+}
+/*9. Media Query*/
+@media (min-witdh:480px){
+    .etrada img{
+        width: 300px;
+        float: left;
+        margin:0 30px 0 0;
+    } 
+}
+/*11. Justificar Texto*/
+.entrada p{
+    text-align: justify;
+}
+/**12. Sidebar**/
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li{
+    padding: 10px;
+}
+.sidebar ul li:hover{
+    background-color: #00B8E4;
+}
+.sidebar ul li a{
+    color: #00B8E4;
+    font-size: 18px;
+    text-decoration: none;
+}
+/*En el enlace*/
+.sidebar ul li:hover{
+    color: #ffffff;
+}
+/*12. Botones*/
+.boton{
+    background-color: #00B8E4;
+    padding:  10px 60px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color .3s ease-in-out; 
+}
+.boton:hover{
+    background: rgb (0,131164);
+}
+/*13. Entrada*/
+.entrada{
+    margin-bottom: 60px;
+}
+/*14. Ultima Entrada*/
+.entrada:last-of-type{
+    margin-bottom: 0;
+}
+/*footer*/
+.footerSitio{
+    background-color: #DB008D;
+    padding-top: 40px;
+    margin-top: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+/*16. titulo footer*/
+.footerSitio h2{
+    color: #ffffff;
+}
+/*17. Menu*/
+.footerSitio a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 20px;
+}
+/*18. Media query*/
+@media (min-witdh:768px){
+    .footerSitio .nosotros{
+        float:left;
+        width: 50%;
+        text-align: left;
+    }
+    .footerSitio .menu{
+        float: right;
+        width: 50%;
+        text-align: right;
+    }
+}
+/*19. mnu el ultimo*/
+.footerSitio a:last-of-type{
+    margin-top: 0;
+}
+/*20. copyright*/
+.copyrigth{
+    background-color: #b10474;
+    margin: 50px 0 0 0;
+    padding: 20px 0;
+}
+
+/*Imagenes Responsivas*/
+img{
+    max-width: 100%;
+}
+/*Estilos de parrafo 10*/
+p{
+    font-size: 16px;
+    line-height: 2;
+}
+/*12. Botones*/
+.boton{
+    background-color: #00B8E4;
+    padding:  10px 60px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color .3s ease-in-out; 
+}
+.boton:hover{
+    background-color: rgb(0, 131,164);
+}
+/*1 Separamos un poco el header de la parte superior.*/
+.siteHeader{
+padding: 20px 0;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/*23. Navegacion responsive*/
+.barra{
+    overflow: hidden;
+}
+/* 21 */
+.mobileMenu{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    padding: 20px 0;
+}
+#nav:target{
+    max-height: 800px;
+}
+/*22 Desaparecemos el menu*/
+.navegacionPrincipal{
+    /*Para que no se vea nada*/
+    max-height: 0;
+    transition: .5s;
+}
+/*Desaparecer botones*/
+@media (min-witdh:768px){
+    .navegacionPrincipal{
+        /*Ignorar max heigt*/
+        max-height: unset;
+    }
+    .mobileMenu,
+    .cerrar{
+        display: none !important;
+    }
+}
+/**2. Navegacion**/
+.barra{
+    margin-top: 40px;
+    background-color: #DB008D;
+}
+
+/*3. Ahora vamos con la navegacion pal*/
+.navegacionPrincipal a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+/*4 media query*/
+@media (min-witdh:768px){
+    .navegacionPrincipal a{
+display: inline-block;
+    }
+}
+/*5. Hover enlaces*/
+.navegacionPrincipal a:hover{
+    background-color: #00B8E4;
+}
+/**6. Conenedores Principal**/
+.contenedorPrincipal{
+    margin-top: 40px;
+}
+.contenedorPrincipal,
+.sidebar{
+    padding: 20px;
+}
+@media (min-witdh:760px){
+    .contenedorPrincipal{
+        width: 70%;
+        float: left;
+        padding: 0 60px 0 0;
+    }
+    .sidebar{
+        width: 30%;
+        float: right;
+        padding: 0 ;
+        margin-top: 40px;
+    }
+}
+/**7. Entradas de blog**/
+h2{
+    color: #00B8E4;
+    margin-bottom: 20px;
+}
+/**13. Entradas **/
+.entrada{
+    margin-bottom: 60px;
+}
+/*14.Ultima entrada*/
+.entrada:last-of-type{
+    margin-bottom: 0;
+}
+/*8.Estilos imagenes*/
+.entrada img{
+    display: block;
+}
+/*9.Media query*/
+@media (min-witdh:480px){
+    .etrada img{
+        width: 300px;
+        float: left;
+        margin:0 30px 0 0;
+    } 
+}
+/*11. Justificar Texto*/
+.entrada p{
+    text-align: justify;
+}
+/**12. Sidebar**/
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li{
+    padding: 10px;
+}
+.sidebar ul li:hover{
+    background-color: #00B8E4;
+}
+.sidebar ul li a{
+    color: #00B8E4;
+    font-size: 18px;
+    text-decoration: none;
+}
+/*En el enlace*/
+.sidebar ul li:hover{
+    color: #ffffff;
+}
+/*footer*/
+.footerSitio{
+    background-color: #DB008D;
+    padding-top: 40px;
+    margin-top: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+/*16. titulo footer*/
+.footerSitio h2{
+    color: #ffffff;
+}
+/*17. Menu*/
+.footerSitio a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 20px;
+}
+/*18. Media query*/
+@media (min-witdh:768px){
+    .footerSitio .nosotros{
+        float:left;
+        width: 50%;
+        text-align: left;
+    }
+    .footerSitio .menu{
+        float: right;
+        width: 50%;
+        text-align: right;
+    }
+}
+/*19. mnu el ultimo*/
+.footerSitio a:last-of-type{
+    margin-top: 0;
+}
+/*20. copyright*/
+.copyrigth{
+    background-color: #b10474;
+    margin: 50px 0 0 0;
+    padding: 20px 0;
+}
